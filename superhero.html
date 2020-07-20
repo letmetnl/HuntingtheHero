@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Hunter</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/Superhero-Logos.jpg" type="image/gif" sizes="16x16">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style/superhero.css">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/198cd6dc1b.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><div class="nav-left">
+            <img id="logo" src="assets/Superhero-Logos.jpg">
+            <div id="logo-text"><h1>Hunting</h1><h4>theHero</h4></div>
+        </div></a>
+        <div class="nav-right">
+            <a href="index.html"><div>Home</div></a>
+            <a href="fav.html"><div>Endeared</div></a>
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="main-container">
+
+            <h1 id="superhero-title">
+
+            </h1>
+
+            <div class="info-container">
+
+                <img id="superhero-image" class="effect">
+
+                <div id="favourite" style="margin-top:40px;" class="favourites">
+                </div>
+
+                <div id="powerstats" class="infoItem">
+                    <h1>Power stats</h1>
+                    <div class="entry">
+                        <div class="item-title">Intelligence</div>
+                        <div id="intelligence" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Strength</div>
+                        <div id="strength" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Speed</div>
+                        <div id="speed" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Durability</div>
+                        <div id="durability" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Power</div>
+                        <div id="power" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Combat</div>
+                        <div id="combat" class="item-content"></div>
+                    </div>    
+                </div>
+
+                <div id="biography" class="infoItem">
+                    <h1>Biography</h1>
+                    <div class="entry">
+                        <div class="item-title">Full name</div>
+                        <div id="full-name" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Alter egos</div>
+                        <div id="alter-egos" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Aliases</div>
+                        <div id="aliases" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Place of birth</div>
+                        <div id="place-of-birth" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">First appearance</div>
+                        <div id="first-appearance" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Publisher</div>
+                        <div id="publisher" class="item-content"></div> 
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Alignment</div>
+                        <div id="alignment" class="item-content"></div>
+                    </div>
+                </div>
+
+                <div id="appearance" class="infoItem">
+                    <h1>Appearance</h1>
+                    <div class="entry">
+                        <div class="item-title">Gender</div>
+                        <div id="gender" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Race</div>
+                        <div id="race" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Height</div>
+                        <div id="height" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Weight</div>
+                        <div id="weight" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Eye color</div>
+                        <div id="eye-color" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Hair color</div>
+                        <div id="hair-color" class="item-content"></div>
+                    </div>
+                </div>
+
+                <div id="work" class="infoItem">
+                    <h1>Work</h1>
+                    <div class="entry">
+                        <div class="item-title">Occupation</div>
+                        <div id="occupation" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Base</div>
+                        <div id="base" class="item-content"></div>
+                    </div>
+                </div>
+
+                <div id="connections" class="infoItem">
+                    <h1>Connections</h1>
+                    <div class="entry">
+                        <div class="item-title">Group affiliations</div>
+                        <div id="group-affiliation" class="item-content"></div>
+                    </div>
+                    <div class="entry">
+                        <div class="item-title">Relatives</div>
+                        <div id="relatives" class="item-content"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="snackbar">
+
+        </div>
+
+    </main>
+
+    <script src="script/superhero.js"></script>
+</body>
+</html>
+
+
