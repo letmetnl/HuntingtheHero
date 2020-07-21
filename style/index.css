@@ -7,11 +7,9 @@
 body{
     background-image: url(../assets/superheroes.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: 100% 100%;
     opacity: 0.8;
-    /* background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vhs; */
+    background-repeat: no-repeat;
 }
 
 /* ....NAV BAR......... */

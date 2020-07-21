@@ -5,6 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* body background */
+body{
+    background-image: url('../assets/bg2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-position-x: inherit;
+    background-position-y: inherit; */
+    background-size: 100% 100%;
+}
+
 /* ....NAV BAR......... */
 
 header{
@@ -82,12 +92,6 @@ a{
 /* ........MAIN SECTION........ */
 
 main{
-    background-image: url('../assets/bg2.jpg');
-    background-attachment: fixed;
-    /* background-repeat: no-repeat; */
-    /* background-position-x: inherit;
-    background-position-y: inherit; */
-    background-size: contain;
     margin-top: 60px;
     text-shadow: 2px 2px 4px #000000;
     color: white;
